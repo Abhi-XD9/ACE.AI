@@ -1,0 +1,161 @@
+.main-cont{
+  min-height: 80vh;
+  height: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0px 1px 15px rgba(201, 156, 156, 0.5);
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.app-cont{
+  min-height: 100vh;
+  padding-bottom: 1rem;
+}
+.heading{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(0deg, rgb(55, 40, 194) 0%, rgb(201, 67, 67) 80%);
+            -webkit-background-clip: text; 
+            background-clip: text;
+            color: transparent;
+  
+}
+
+.input-cont{
+  position: fixed;
+  bottom: 0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.input-cont svg:hover{
+ color:rgb(28, 122, 230)
+}
+.message{
+  width: fit-content;
+  max-width: 55%;
+  align-self: flex-end;
+}
+
+.ai-mssg{
+  color: white;
+  width: fit-content;
+ border-radius: 10px;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ max-width: 60%;
+}
+
+.ai-mssg-cont{
+  background-color:rgb(77, 73, 76);
+  padding: 0.6rem;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.user-message{
+  background-color: whitesmoke;
+  padding: 0.6rem;
+  margin: 0;
+  border-radius: 10px;
+  align-content: center;
+  font-family:'Inter', 'Arial', sans-serif;
+}
+
+.nav {
+  padding: 1rem 2rem;
+  font-family: 'Inter', 'Arial', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:sticky;
+  top: 0;
+  z-index: 1000;
+}
+strong{
+  margin-right: 5px;
+}
+
+.nav img{
+  margin-left: 2rem;
+}
+
+.btn-cont button{
+  box-shadow: 0px 1px 10px 1px rgba(145, 82, 80, 0.5);
+  font-weight: 600;
+}
+.form-btn{
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.input-cont textarea{
+  border: none;
+  font-family:'Inter', 'Arial', sans-serif;
+ 
+}
+
+.input-cont textarea:focus{
+  box-shadow: none;
+}
+
+@media (max-width: 650px) {
+    .main-cont {
+        width: 100%;
+      margin: 0;
+      margin-bottom: 0;
+      height: 100%;
+      font-size: 0.8rem;
+     margin-bottom: 0;
+     padding-bottom:0 ;
+     margin-top: 1rem;
+     box-shadow: none;
+     min-height: 85vh;
+    }
+    .input-cont textarea{
+     padding: 0;
+     height: 60px;
+    }
+    .nav img{
+      height: 60px;
+      width: 60px;
+    }
+    .btn-cont button svg{
+      width: 20px;
+      height: 20px;
+    }
+    .btn-cont button{
+      padding: 0.2rem;
+      font-size: 0.8rem;
+    }
+    .heading{
+      font-size: 1.2rem;
+    }
+  }
+
+.message button{
+  border: none;
+  padding: 3px;
+  margin-left: 0.5rem;
+}
+
+.ai-mssg button{
+  border: none;
+  padding: 3px;
+  margin-left: 0.5rem;
+}
+
+.ai-img{
+  width: 80%;
+ border-radius: 10px;
+ margin-top: 10px;
+  margin-bottom: 10px;
+}
