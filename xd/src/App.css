@@ -111,14 +111,13 @@ strong{
     .main-cont {
         width: 100%;
       margin: 0;
-      margin-bottom: 0;
       height: 100%;
       font-size: 0.8rem;
      margin-bottom: 0;
      padding-bottom:0 ;
      margin-top: 1rem;
      box-shadow: none;
-     min-height: 85vh;
+     min-height: 80vh;
     }
     .input-cont textarea{
      padding: 0;
